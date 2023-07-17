@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# Dir
+sjtu_drone/
