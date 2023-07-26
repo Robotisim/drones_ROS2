@@ -39,11 +39,7 @@ def generate_launch_description():
             output="screen"
         )
 
-    follow_tb3_vision= Node(
-            package="drive_drone",
-            executable="p1_b_tb3_follower",
-            output="screen"
-        )
+
     follow_tb3_vision= Node(
             package="drive_drone",
             executable="p1_b_tb3_follower",
