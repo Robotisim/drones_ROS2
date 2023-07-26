@@ -34,7 +34,7 @@ def generate_launch_description():
 
     drive_drone= Node(
             package="drive_drone",
-            executable="p1_drive_node",
+            executable="p1_a_drive_node",
             output="screen"
         )
 

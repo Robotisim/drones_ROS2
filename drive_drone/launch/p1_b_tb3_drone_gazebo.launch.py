@@ -39,17 +39,29 @@ def generate_launch_description():
             output="screen"
         )
 
-    drive_drone= Node(
+    follow_tb3_vision= Node(
             package="drive_drone",
-            executable="p1_drive_node",
+            executable="p1_b_tb3_follower",
             output="screen"
+        )
+    follow_tb3_vision= Node(
+            package="drive_drone",
+            executable="p1_b_tb3_follower",
+            output="screen"
+        )
+    drive_tb3= Node(
+            package="teleop_twist_keyboard",
+            executable="teleop_twist_keyboard",
+            output="screen",
+            prefix="xterm -e"
         )
 
     nodes_to_run = [
         drone_bringup,
         takeoff_cmd,
-        # drive_drone,
-        tb3_bringup
+        follow_tb3_vision,
+        tb3_bringup,
+        drive_tb3
 
 
     ]
