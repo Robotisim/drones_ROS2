@@ -7,8 +7,6 @@ This repository contains the code for the drones with ROS2 project. The project 
 The simulation is done with the [rotors_simulator] package. The package is a collection of Gazebo plugins and ROS2 modules for high fidelity simulation of multirotor vehicles. The package is a fork of the [rotors_simulator] package for ROS1. The simulation is done with the [rotors_gazebo_plugins] package. The package contains the plugins for the simulation of the drone. The package is a fork of the [rotors_gazebo_plugins] package for ROS1. The simulation is done with the [rotors_control] package. The package contains the controllers for the simulation of the drone. The package is a fork of the [rotors_control] package for ROS1. The simulation is done with the [rotors_description] package. The package contains the description of the drone. The package is a fork of the [rotors_description] package for ROS1. The simulation is done with the [rotors_comm] package. The package contains the messages for the simulation of the drone. The package is a fork of the [rotors_comm] package for ROS1.
 
 
-### Run simulation
-- After Building the package and getting sub modules
-    ```
-    ros2 launch drive_drone p1_a_drone_fly_gazebo_rviz.launch.py
-    ```
+
+## Running Projects
+- Project [#1](https://github.com/Robotisim/drones_ROS2/issues/1):  Follow Ground Robot -> [Wiki_link](https://github.com/Robotisim/drones_ROS2/wiki/Project-%231:-Follow-Ground-Robot)
